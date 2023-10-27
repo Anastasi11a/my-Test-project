@@ -1,7 +1,12 @@
 body {
-    background-color: rgba(16, 25, 32, 0.958);
+    background: rgba(16, 25, 32, 0.958);
 }
 
 h1 {
     color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: fit-content;
+    border: 1px solid whitesmoke;
 }
