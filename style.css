@@ -1,12 +1,19 @@
+* {
+    box-sizing: border-box;
+}
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: rgba(16, 25, 32, 0.958);
 }
 
 h1 {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
     color: whitesmoke;
-    justify-content: center;
-    align-items: center;
-    width: 200px;
-    height: fit-content;
+    width: 600px;
+    height: auto;
     border: 1px solid whitesmoke;
 }
